@@ -30,8 +30,12 @@ img {
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: bold;
+    transition:  0.3s;
 }
 
+.btn-preto{
+    transition: .3s;
+}
 
 .btn:hover{
     color: #FFF;
@@ -113,6 +117,7 @@ img {
     font-size: 14px;
     line-height: 20px;
     padding: 10px 0;
+    transition: .3s;
 }
 
 .header_menu ul li a:hover{
@@ -388,6 +393,7 @@ img {
     border: solid #fec63e 3px;
     display: block;
     padding: 6px;
+    transition: .3s;
 }
 
 .footer_redes ul li a:hover{
@@ -414,12 +420,15 @@ img {
     transition: opacity 500ms;
     z-index: 1;
   }
-  .js[data-slide-nav]{
+  .js [data-slide-nav]{
       display: block;
       text-align: center;
       margin-top: 20px;
   }
 
+  .slider{
+    text-align: center;
+  }
   .js [data-slide-nav] > button {
     display: inline-block;
     width: 12px;
@@ -445,7 +454,7 @@ img {
   .anime {
     opacity: 1 !important;
     transform: none !important;
-    transition: transform .8s, opacity .8s !important;
+    transition: transform .8s, opacity .8s, color .3s, border .3s !important;
   }
 
   .fadeInDown {

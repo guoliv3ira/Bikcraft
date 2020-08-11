@@ -86,6 +86,7 @@
     border: solid #fec63e 3px;
     display: block;
     padding: 6px;
+    transition: .3s;
 }
 
 .contato_dados ul li a:hover{

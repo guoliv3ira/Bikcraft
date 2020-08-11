@@ -16,3 +16,13 @@ if (window.SimpleSlide) {
 if (window.SimpleAnime){
 new SimpleAnime()
 }
+
+const hamburger = document.getElementById('hamburger')
+const navUL = document.getElementById('nav_ul')
+const menuContainer = document.querySelector('.heade_menu')
+
+hamburger.addEventListener('click', ()=>{
+    navUL.classList.toggle('show')
+    menuContainer.setAttribute("data-anime","200")
+    
+})

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/060c047e40.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -14,18 +15,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-           <a href="index.html" class="grid-4">
-               <img src="img/bikcraft.svg" alt="">
-           </a>
-           <nav class="header_menu" class="grid-12">
-               <ul>
-                   <li><a href="sobre.html" >Sobre</a></li>
-                   <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
-                   <li><a href="portfolio.html">Portfólio</a></li>
-                   <li><a href="contato.html">Contato</a></li>
-               </ul>
-           </nav>
+        <div class="container header_container">
+            <div class="menu">
+                <a href="index.html" class="grid-4">
+                    <img src="img/bikcraft.svg" alt="">
+                </a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="header_menu" class="grid-12">
+                <ul id="nav_ul">
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                    <li><a href="portfolio.html" >Portfólio</a></li>
+                    <li><a href="contato.html" >Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 

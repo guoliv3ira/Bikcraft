@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/060c047e40.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -11,21 +13,27 @@
     <title>Bikecraft</title>
     <script>document.documentElement.classList.add("js")</script>
 </head>
+
 <body>
 
     <header class="header">
-        <div class="container">
-           <a href="index.html" class="grid-4">
-               <img src="img/bikcraft.svg" alt="">
-           </a>
-           <nav class="header_menu" class="grid-12">
-               <ul>
-                   <li><a href="sobre.html">Sobre</a></li>
-                   <li><a href="produtos.html">Produtos</a></li>
-                   <li><a href="portfolio.html">Portfólio</a></li>
-                   <li><a href="contato.html">Contato</a></li>
-               </ul>
-           </nav>
+        <div class="container header_container">
+            <div class="menu">
+                <a href="index.html" class="grid-4">
+                    <img src="img/bikcraft.svg" alt="">
+                </a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="header_menu" class="grid-12">
+                <ul id="nav_ul">
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -40,7 +48,7 @@
         </div>
     </section>
 
-    <section data-anime="1600"class="container produtos fadeInDown">
+    <section data-anime="1600" class="container produtos fadeInDown">
         <h2 class="subtitulo">
             Produtos
         </h2>
@@ -84,7 +92,7 @@
                 <li class="grid-8">
                     <img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio">
                 </li>
-                <li class="grid-16" >
+                <li class="grid-16">
                     <img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte">
                 </li>
             </ul>
@@ -92,7 +100,7 @@
                 <p>conheça mais o nosso portfólio</p>
                 <a href="produtos.html" class="btn">Portifólio</a>
             </div>
-            </div>
+        </div>
     </section>
 
     <section class="qualidade container">
@@ -125,14 +133,16 @@
             <cite>WILLIAM MORRIS</cite>
         </blockquote>
     </section>
-    
+
     <footer>
         <div class="footer">
             <div class="container">
 
                 <div class="grid-8 footer_historia">
                     <h3>Nossa História</h3>
-                    <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
+                    <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos
+                        apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu
+                        um sonho na garagem da nossa casa.</p>
                 </div>
 
                 <div class="grid-4 footer_contato">
@@ -147,14 +157,17 @@
                 <div class="grid-4 footer_redes">
                     <h3>Redes SOciais</h3>
                     <ul>
-                        <li><a href="http://facebook.com" target="blank"><img src="img/redes-sociais/facebook.svg" alt=""></a></li>
-                        <li><a href="http://instagram.com" target="blank"><img src="img/redes-sociais/instagram.svg" alt=""></a></li>
-                        <li><a href="http://twitter.com" target="blank"><img src="img/redes-sociais/twitter.svg" alt=""></a></li>
+                        <li><a href="http://facebook.com" target="blank"><img src="img/redes-sociais/facebook.svg"
+                                    alt=""></a></li>
+                        <li><a href="http://instagram.com" target="blank"><img src="img/redes-sociais/instagram.svg"
+                                    alt=""></a></li>
+                        <li><a href="http://twitter.com" target="blank"><img src="img/redes-sociais/twitter.svg"
+                                    alt=""></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        
+
         <div class="copy">
             <div class="container">
                 <p class="grid-16">Bikcraft 2020 - Alguns direitos reservados.</p>
@@ -165,4 +178,5 @@
     <script src="js/simple-anime.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

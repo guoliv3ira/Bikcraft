@@ -57,8 +57,55 @@
     
     .header{
         position: relative;
+        
     }
 
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu a{
+        width: 120px;
+    }
+
+    .header_container{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .header_menu{
+        display: flex;        
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .header .header_container nav .show{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_menu ul li{
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    
+  
+/*
     .header img{
         margin: 0 auto 10px auto;
     }
@@ -80,6 +127,12 @@
 
     .header_menu ul li a:hover{
         border-color: #FFF;
+    } */
+
+    #nav_ul{
+        display: none;
+        width: 100%;
+        flex-direction: column;
     }
 
     /* Introdução */

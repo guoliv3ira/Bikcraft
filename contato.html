@@ -4,20 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Bikecraft - Contato - 11 9999-9999</title>
-    <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos os modelos Passeio, Retrô e Esporte.">
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Bikecraft - Contato - 11 9999-9999"/>
-    <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos os modelos Passeio, Retrô e Esporte."/>
-    <meta property="og:url" content="https://bikcraft-kappa.vercel.app/contato.html"/>
-    <meta property="og:image" content="https://i.imgur.com/lEsdeL7.png"/>
+    <meta name="description"
+        content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos os modelos Passeio, Retrô e Esporte.">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bikecraft - Contato - 11 9999-9999" />
+    <meta property="og:description"
+        content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos os modelos Passeio, Retrô e Esporte." />
+    <meta property="og:url" content="https://bikcraft-kappa.vercel.app/contato.html" />
+    <meta property="og:image" content="https://i.imgur.com/lEsdeL7.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/060c047e40.js" crossorigin="anonymous"></script>
     <script>document.documentElement.classList.add("js")</script>
 </head>
@@ -33,7 +30,7 @@
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
-            <nav class="header_menu" class="grid-12">
+            <nav class="grid-12 header_menu">
                 <ul id="nav_ul">
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
@@ -48,17 +45,17 @@
         <div class="container">
             <h1 class="fadeInDown" data-anime="400">Contato</h1>
             <p class="fadeInDown" data-anime="800">tire as suas dúvidas com a gente</p>
-
+        </div>
     </section>
 
     <section class="contato container fadeInDown" data-anime="1200">
-        <form action="" method="POST" action="enviar-sendgrid.php" id="form_orcamento" class="contato_form grid-8 formphp">
-            <label for="nome" >Nome</label>
+        <form method="POST" action="enviar-sendgrid.php" id="form_orcamento" class="contato_form grid-8 formphp">
+            <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required>
             <label for="email">E-mail</label>
-            <input type="text" id="email" type="email" name="email" required>
-            <label for="telefone" name="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input id="email" type="email" name="email" required>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
 
             <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
             <input type="text" class="nao-aparece" name="leaveblank">
@@ -85,20 +82,22 @@
                 <li><a href="http://twitter.com" target="blank"><img src="img/redes-sociais/twitter.svg" alt=""></a>
                 </li>
             </ul>
+        </div>
     </section>
 
 
-    <section class="container contato_mapa fadeInDown" data-anime="1600">
-        <a href="http://maps.google.com" target="blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
-    </section>
+    <div class="container contato_mapa fadeInDown" data-anime="1600">
+        <a href="http://maps.google.com" target="blank" class="grid-16"><img src="img/endereco-bikcraft.jpg"
+                alt="Endereço da Bikcraft"></a>
+    </div>
 
-    <section class="quebra">
+    <div class="quebra">
         <blockquote class="quote-externo">
             <p>""o verdadeiro segredo da felicidade está em ter um genuíno
                 interesse por todos os detalhes da vida cotidiana""</p>
             <cite>WILLIAM MORRIS</cite>
         </blockquote>
-    </section>
+    </div>
 
     <footer>
         <div class="footer">
@@ -124,11 +123,11 @@
                     <h3>Redes Sociais</h3>
                     <ul>
                         <li><a href="http://facebook.com" target="blank"><img src="img/redes-sociais/facebook.svg"
-                                    alt=""></a></li>
+                                    alt="Faceboo"></a></li>
                         <li><a href="http://instagram.com" target="blank"><img src="img/redes-sociais/instagram.svg"
-                                    alt=""></a></li>
+                                    alt="Instagram"></a></li>
                         <li><a href="http://twitter.com" target="blank"><img src="img/redes-sociais/twitter.svg"
-                                    alt=""></a></li>
+                                    alt="Twitter"></a></li>
                     </ul>
                 </div>
             </div>

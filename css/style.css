@@ -470,3 +470,17 @@ img {
   .fadeInDown {
     transform: translate3d(0,-20px,0)
   }
+
+  .nao-aparece{
+      visibility: hidden;
+      height: 0px;
+      position: absolute;
+  }
+
+  #form-sucesso{
+    color: #31aa39;
+  }
+
+  #form-erro{
+      color: #f64540;
+  }
